@@ -1,5 +1,6 @@
 package ie.tudublin;
 
+import processing.core.PApplet;
 import processing.data.TableRow;
 
 public class Task {
@@ -14,6 +15,10 @@ public class Task {
             row.getFloat("Start"),
             row.getFloat("End")
         );
+    }
+
+    public void render(PApplet pa){
+        
     }
 
     public Task(String task, float start, float end) {
